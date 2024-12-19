@@ -422,7 +422,7 @@ public class StepDefinition extends BaseClass {
 	@And("I enter Again the valid username and password")
 	public void i_enter_again_the_valid_username_and_password() {
 		WebElement userName = login.getUserName();
-		base.textSendByJava(userName, "mani5877");
+		base.textSendByJava(userName, "mani7787");
 		WebElement password = login.getPassword();
 		base.textSendByJava(password, "Manis@2024");
 	}
