@@ -418,7 +418,13 @@ public class StepDefinition extends BaseClass {
 	@When("I take a screenshot of the current page")
 	public void i_take_a_screenshot_of_the_current_page() throws IOException {
 		base.screenCapture("Clicked_Login_again_loginpage_displayed");
-
+	}
+	@And("I enter Again the valid username and password")
+	public void i_enter_again_the_valid_username_and_password() {
+		WebElement userName = login.getUserName();
+		base.textSendByJava(userName, "mani7787");
+		WebElement password = login.getPassword();
+		base.textSendByJava(password, "Manis@2024");
 	}
 
 

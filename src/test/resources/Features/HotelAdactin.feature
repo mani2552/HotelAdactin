@@ -48,4 +48,5 @@ Feature: Hotel Booking Process on Adactin Hotel App
     Then I should be logged out of the application
     And I click on the login button again
     When I take a screenshot of the current page
+    And I enter Again the valid username and password
 	
